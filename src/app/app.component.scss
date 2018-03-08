@@ -1,0 +1,42 @@
+@import "../variables.scss";
+.header-item {
+  position: relative;
+  padding: 0 25px 0 25px;
+  font-size: 0.6em;
+  .title {
+
+  }
+  .description {
+    position: absolute;
+    left: 25px;
+    top: 16px;
+    font-size: 0.8em;
+  }
+}
+.logo {
+  width: 35px;
+}
+.page-content {
+  height: 100%;
+  .container {
+    height: 100%;
+    .item {
+      height: 100%;
+      margin-right: 5px!important;
+      .content {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.chart {
+  height: 50%;
+}
+.orders {
+  height: 40%;
+}
+
+.mat-toolbar.mat-primary {
+  background-color: $primary-color-tint8;
+}

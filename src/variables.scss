@@ -1,0 +1,31 @@
+$primary-color: #3aa130;
+
+$primary-color-tint1: mix($primary-color, #fff, 90%);
+$primary-color-tint2: mix($primary-color, #fff, 80%);
+$primary-color-tint3: mix($primary-color, #fff, 70%);
+$primary-color-tint4: mix($primary-color, #fff, 60%);
+$primary-color-tint5: mix($primary-color, #fff, 50%);
+$primary-color-tint6: mix($primary-color, #fff, 40%);
+$primary-color-tint7: mix($primary-color, #fff, 30%);
+$primary-color-tint8: mix($primary-color, #fff, 20%);
+$primary-color-tint9: mix($primary-color, #fff, 10%);
+
+$primary-color-shade1: mix($primary-color, #000, 90%);
+$primary-color-shade2: mix($primary-color, #000, 80%);
+$primary-color-shade3: mix($primary-color, #000, 70%);
+$primary-color-shade4: mix($primary-color, #000, 60%);
+$primary-color-shade5: mix($primary-color, #000, 50%);
+$primary-color-shade6: mix($primary-color, #000, 40%);
+$primary-color-shade7: mix($primary-color, #000, 30%);
+$primary-color-shade8: mix($primary-color, #000, 20%);
+$primary-color-shade9: mix($primary-color, #000, 10%);
+
+$green: #4caf50;
+$red: #d50000;
+
+$text-color: $primary-color-tint9;
+$high-lighed-text-color: $primary-color-tint4;
+$dimmed-text-color: $primary-color-tint3;
+
+$dimmed-button-background-color: $primary-color;
+$dimmed-button-text-color: $primary-color;
